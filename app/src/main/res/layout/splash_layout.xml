@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Splash"
     android:gravity="center"
-    android:background="#061E29">
+    android:background="#F3F4F4">
 
     <ImageView
         android:layout_width="250dp"
@@ -21,16 +21,17 @@
         android:layout_height="wrap_content"
         android:text="Run App"
         android:textSize="40dp"
-        android:textColor="#F3F4F4"
+        android:textColor="#061E29"
         android:layout_marginTop="10dp"
         />
+
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         android:indeterminate="true"
         app:indicatorSize="52dp"
         app:trackCornerRadius="4dp"
-        app:trackThickness="8dp"></com.google.android.material.progressindicator.CircularProgressIndicator>
+        app:trackThickness="8dp"
+        android:layout_marginTop="30dp"/>
 
 </LinearLayout>
