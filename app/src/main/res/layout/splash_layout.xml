@@ -5,10 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash">
+    tools:context=".Splash"
+    android:gravity="center"
+    android:background="#061E29">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="250dp"
-    android:src="@drawable/logo"
+    android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run App"
+        android:textSize="40dp"
+
 </LinearLayout>

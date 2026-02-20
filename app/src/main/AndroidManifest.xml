@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_teste_w8">
         <activity
+            android:name=".RecuperarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".Splash"
             android:exported="false" />
         <activity
